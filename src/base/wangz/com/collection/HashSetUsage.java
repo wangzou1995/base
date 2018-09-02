@@ -1,4 +1,4 @@
-package base.wangz.com;
+package base.wangz.com.collection;
 
 import java.util.HashSet;
 import java.util.Iterator;

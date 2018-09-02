@@ -1,4 +1,4 @@
-package base.wangz.com;
+package base.wangz.com.map;
 
 import java.util.HashMap;
 import java.util.Iterator;
