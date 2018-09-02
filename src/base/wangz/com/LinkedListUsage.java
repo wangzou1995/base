@@ -56,7 +56,7 @@ public class LinkedListUsage {
 	        List<Object> list1=addList(new ArrayList<>());
 	        List<Object> list2=addList(new LinkedList<>());
 	        System.out.println("ArrayList查找"+N+"条耗时："+readList(list1));
-	        System.out.println("LinkedList查找"+N+"条耗时："+timeList(list2));
+	        System.out.println("LinkedList查找"+N+"条耗时："+readList(list2));
 	    
 	}
 }
