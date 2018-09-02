@@ -48,7 +48,7 @@ public class LinkedListUsage {
 		// 两者区别：
 //		1.ArrayList是实现了基于动态数组的数据结构，LinkedList基于链表的数据结构。 
 //		2.对于随机访问get和set，ArrayList觉得优于LinkedList，因为LinkedList要移动指针。 
-//		3.对于新增和删除操作add和remove，LinedList比较占优势，因为ArrayList要移动数据。
+//		3.对于新增和删除操作add和remove，LinkedList比较占优势，因为ArrayList要移动数据。
 		
 	        System.out.println("ArrayList添加"+N+"条耗时："+timeList(new ArrayList<Object>()));
 	        System.out.println("LinkedList添加"+N+"条耗时："+timeList(new LinkedList<Object>()));
