@@ -44,7 +44,6 @@ public class HashMapUsage {
 			Entry<Integer, String> entry = iterator.next();
 			System.out.println(entry.getKey());
 			System.out.println(entry.getValue());
-
 		}
 
 	}
