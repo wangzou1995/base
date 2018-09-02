@@ -34,6 +34,9 @@ public class ArrayListUsage {
 		// list.remove("wz");
 		// 返回list长度
 		list.size();
+		// 指定再某索引处添加元素（返回索引处旧元素，如果制定索引大于list的长度 就会异常）
+		
+		list.set(2,"qqq");
 		// 迭代器的使用方式
 		// （1）ListIterator有add()方法，可以向List中添加对象，而Iterator不能
 		// （2）ListIterator和Iterator都有hasNext()和next()方法，可以实现顺序向后遍历，但是ListIterator有hasPrevious()和previous()方法，可以实现逆向（顺序向前）遍历。Iterator就不可以。
